@@ -310,3 +310,8 @@ class ShiftConvDownsample(nn.Module):
         x = self.conv(x)
         x = self.bn(x)
         return x
+
+
+if __name__ == '__main__':
+    mod = cifar_shakeshake26()
+    print(mod)
